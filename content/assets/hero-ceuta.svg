@@ -1,0 +1,27 @@
+<svg viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#faf6f5"/>
+      <stop offset="100%" stop-color="#f1e4e2"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="600" fill="url(#sky)"/>
+
+  <!-- Landmass left (Europa) -->
+  <path d="M0,600 L0,300 L180,260 L340,330 L420,300 L520,360 L560,420 L560,600 Z" fill="#2b2b2b" opacity="0.88"/>
+  <!-- Landmass right (África) -->
+  <path d="M1200,600 L1200,260 L1020,300 L900,250 L760,320 L660,300 L640,600 Z" fill="#2b2b2b" opacity="0.88"/>
+
+  <!-- Water strait -->
+  <rect x="560" y="0" width="80" height="600" fill="none"/>
+
+  <!-- Border / strait line, dashed, garnet -->
+  <line x1="600" y1="0" x2="600" y2="600" stroke="#8c1c2b" stroke-width="4" stroke-dasharray="14 10"/>
+
+  <!-- Small marker -->
+  <circle cx="600" cy="330" r="9" fill="#8c1c2b"/>
+  <circle cx="600" cy="330" r="16" fill="none" stroke="#8c1c2b" stroke-width="2" opacity="0.5"/>
+
+  <!-- Thin frame -->
+  <rect x="8" y="8" width="1184" height="584" fill="none" stroke="#8c1c2b" stroke-width="2" opacity="0.35"/>
+</svg>

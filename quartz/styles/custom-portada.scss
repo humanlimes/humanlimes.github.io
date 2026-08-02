@@ -1,0 +1,114 @@
+// ===== Estilo portada tipo revista (Limes) =====
+
+.hero-featured {
+  margin: 1.5rem 0 2.5rem 0;
+}
+
+.hero-link {
+  display: block;
+  position: relative;
+  text-decoration: none;
+  border: 1px solid var(--lightgray);
+  overflow: hidden;
+  border-radius: 2px;
+}
+
+.hero-image {
+  display: block;
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  margin: 0;
+}
+
+.hero-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 1.75rem 2rem;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.78) 75%);
+}
+
+.hero-tag {
+  display: inline-block;
+  color: #fff;
+  background: var(--secondary);
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.6rem;
+  border-radius: 2px;
+  margin-bottom: 0.6rem;
+}
+
+.hero-title {
+  color: #fff;
+  font-family: var(--headerFont);
+  font-size: 1.7rem;
+  line-height: 1.25;
+  margin: 0 0 0.5rem 0;
+}
+
+.hero-teaser {
+  color: #f1e4e2;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin: 0;
+  max-width: 640px;
+}
+
+.topic-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin: 1.5rem 0 2rem 0;
+}
+
+.topic-card {
+  display: block;
+  text-decoration: none;
+  border: 1px solid var(--lightgray);
+  border-top: 3px solid var(--secondary);
+  padding: 1.1rem 1.2rem 1.3rem 1.2rem;
+  border-radius: 2px;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.topic-card:hover {
+  border-color: var(--secondary);
+  transform: translateY(-2px);
+}
+
+.topic-tag {
+  display: inline-block;
+  color: var(--secondary);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.topic-card h3 {
+  color: var(--dark);
+  font-size: 1.05rem;
+  line-height: 1.3;
+  margin: 0 0 0.4rem 0;
+}
+
+.topic-card p {
+  color: var(--darkgray);
+  font-size: 0.88rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .hero-image {
+    height: 220px;
+  }
+  .hero-title {
+    font-size: 1.3rem;
+  }
+}
