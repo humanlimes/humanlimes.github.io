@@ -12,34 +12,34 @@ configuration:
     - private
     - templates
     - .obsidian
-theme:
-  fontOrigin: googleFonts
-  cdnCaching: true
-  typography:
-    header: Inter
-    body: Inter
-    code: IBM Plex Mono
-  colors:
-    lightMode:
-      light: "#ffffff"
-      lightgray: "#e8dcdb"
-      gray: "#c9a8a3"
-      darkgray: "#2b2b2b"
-      dark: "#1a1a1a"
-      secondary: "#8c1c2b"
-      tertiary: "#b23a2e"
-      highlight: rgba(140, 28, 43, 0.07)
-      textHighlight: "#f6d9d988"
-    darkMode:
-      light: "#161618"
-      lightgray: "#3a3235"
-      gray: "#8a6b68"
-      darkgray: "#d4d4d4"
-      dark: "#f2f2f2"
-      secondary: "#d9827a"
-      tertiary: "#e8a49d"
-      highlight: rgba(217, 130, 122, 0.1)
-      textHighlight: "#b3aa0288"
+  theme:
+    fontOrigin: googleFonts
+    cdnCaching: true
+    typography:
+      header: Inter
+      body: Inter
+      code: IBM Plex Mono
+    colors:
+      lightMode:
+        light: "#ffffff"
+        lightgray: "#e8dcdb"
+        gray: "#c9a8a3"
+        darkgray: "#2b2b2b"
+        dark: "#1a1a1a"
+        secondary: "#8c1c2b"
+        tertiary: "#b23a2e"
+        highlight: rgba(140, 28, 43, 0.07)
+        textHighlight: "#f6d9d988"
+      darkMode:
+        light: "#161618"
+        lightgray: "#3a3235"
+        gray: "#8a6b68"
+        darkgray: "#d4d4d4"
+        dark: "#f2f2f2"
+        secondary: "#d9827a"
+        tertiary: "#e8a49d"
+        highlight: rgba(217, 130, 122, 0.1)
+        textHighlight: "#b3aa0288"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
