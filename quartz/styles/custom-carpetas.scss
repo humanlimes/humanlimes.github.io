@@ -1,0 +1,51 @@
+// ===== Estilo tarjeta para páginas de carpeta (listados) =====
+
+.page-listing,
+article ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 1rem;
+}
+
+.page-listing li,
+article ul > li {
+  border: 1px solid var(--lightgray);
+  border-left: 3px solid var(--secondary);
+  border-radius: 2px;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 0.9rem;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+  list-style: none;
+}
+
+.page-listing li:hover,
+article ul > li:hover {
+  border-color: var(--secondary);
+  transform: translateX(2px);
+}
+
+.page-listing li h3,
+article ul > li h3 {
+  margin: 0.2rem 0 0.15rem 0;
+  font-size: 1.05rem;
+}
+
+.page-listing li h3 a,
+article ul > li h3 a {
+  color: var(--dark);
+  text-decoration: none;
+}
+
+.page-listing li h3 a:hover,
+article ul > li h3 a:hover {
+  color: var(--secondary);
+}
+
+.page-listing .meta,
+article ul > li > p:first-child {
+  color: var(--gray);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin: 0;
+}

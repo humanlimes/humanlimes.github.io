@@ -42,12 +42,12 @@ description: Comprender el presente desde las Ciencias Humanas.
 
 ## Secciones de Limes
 
-**[Investigación](1 - Investigación)** — Trabajos de análisis en profundidad.
+**[Investigación](<1 - Investigación>)** — Trabajos de análisis en profundidad.
 
-**[Análisis](2 - Análisis)** — Lecturas de la actualidad desde perspectiva histórica y social.
+**[Análisis](<2 - Análisis>)** — Lecturas de la actualidad desde perspectiva histórica y social.
 
-**[Dossiers](3 - Dossiers)** — Conjuntos temáticos que agrupan investigación, análisis y conceptos.
+**[Dossiers](<3 - Dossiers>)** — Conjuntos temáticos que agrupan investigación, análisis y conceptos.
 
-**[Conceptos](4 - Conceptos)** — Ideas clave de las Ciencias Humanas.
+**[Conceptos](<4 - Conceptos>)** — Ideas clave de las Ciencias Humanas.
 
-**[Bibliografía](5 - Bibliografía)** — Fuentes y referencias.
+**[Bibliografía](<5 - Bibliografía>)** — Fuentes y referencias.
